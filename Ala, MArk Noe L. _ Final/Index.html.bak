@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+	
+	<title>Mag-Ingwa Shop | EComerce Website Design</title>
+	<link rel="stylesheet" href="Index.css">
+	<link rel="stylesheet" href="https://www.alt-codes.net/peso-sign.php">
+</head>
+<style>
+html { 
+  background: url("Images/HomeDP.jpg") no-repeat center fixed; 
+  background-size: cover;
+</Style
+<body>
+<div class="container">
+	<div class="navbar">
+		<div class="Logo">
+		<img src="Images/Logo.png" width="350px">
+		</div>
+		<nav>
+			<ul>
+				<li><a href="Index.html" target = "_self">Home</a></li>
+				<li><a href="All Product.html" target = "_self">Product</a></li>
+				<li><a href="About.html" target = "_self">About</a></li>
+				<li><a href="Contact.html" target = "_self">Contact</a></li>
+				<li><a href="Account.html" target = "_self">Account</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="row">
+			<div class="col-2">
+			<h1> Live Everyday With Your<br>Fashion and Style</h1>
+			<p><br>Fashion is the armor to survive <br>the reality of everyday life<br>    
+			---BILL CUNNINGHAM---</p>
+			<a href="All Product.html"Class="btn">Explore Now  &#8594;</a>
+			</div>		
+	</div>	
+	<div class = "Categories">
+		<h2 class="title">Featured Product</h2>	
+		<div class ="row row-1">
+			    <div class = "col-3">
+				<a href="Maong Jackets.html" target = "_self">
+					<img src="Images/Feature1.jfif" width = "250" height = "300"border = "3">
+					<h4> Maong jackets</h4>					
+				</div>
+				<div class = "col-3">
+				<a href="Caps.html" target = "_self">
+					<img src="Images/Feature4.jfif" width = "250" height = "300" border = "3">
+					<h4> Caps</h4>
+					
+				</div>	
+				<div class = "col-3">
+				<a href="Shoes.html" target = "_self">
+					<img src="Images/Feature3.jfif" width = "250" height = "300" border = "3">
+					<h4>Shoes</h4>				
+				</div>	
+				<div class = "col-3">
+				<a href="Leather Jackets.html" target = "_self">
+					<img src="Images/Feature2.jfif" width = "250" height = "300" border = "3">
+					<h4> Leather jackets</h4>		
+					
+				</div>
+		</div>
+	</div>
+</div>
+</body>
+
+
+
+</html>

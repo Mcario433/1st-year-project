@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+	
+	<title>Account | EComerce Website Design</title>
+	<link rel="stylesheet" href="Index.css">
+</head>
+<style>
+html { 
+  background: url("Images/AllProductDp.jfif") no-repeat center fixed; 
+  background-size: cover;
+</Style
+<body>
+<div class="container">
+	<div class="navbar">
+		<div class="Logo">
+		<img src="Images/Logo.png" width="350px">
+		</div>
+		<nav>
+			<ul>
+				<li><a href="Index.html" target = "_self">Home</a></li>
+				<li><a href="All Product.html" target = "_self">Product</a></li>
+				<li><a href="" target = "_self">About</a></li>
+				<li><a href="Contact.html" target = "_self">Contact</a></li>
+				<li><a href="Account.html" target = "_self">Account</a></li>
+			</ul>
+		</nav>
+	</div>
+
+		<div class = "Categories ">
+		
+		<div class ="row row-1">
+			    <div class = "col-3">
+				<a href="https://www.facebook.com/makmak.lozano.71" target = "_self">
+					<img src="Images/Fb.png" width = "250" height = "300"border = "3">
+					<h4> Add Me On my Fb Account</h4>					
+				</div>
+				<div class = "col-3">
+				<a href="lozanomarkala.@gmail.com" target = "_self">
+					<img src="Images/Google.png" width = "250" height = "300" border = "3">
+					<h4> Message me On my Google Account</h4>					
+				</div>	
+				<div class = "col-3">
+				<a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fvt.tiktok.com%2FZSdrdgm1V%2F%3Ffbclid%3DIwAR2SMOERVDj61RwIh15Y0Y2kIU3Auhfs9C3CamO1n82K_gMtnWbsjmrVfLU&h=AT1ArByb3GHP3766gso8CXzg18CO95JZ4wLTZ8lqb_SDQUNT3MKVJrVTQwDk-WME2HjUwys0mXDJ1ed5H4j3a7T6csuyGctsOhs-5fBFvUT5OPuiseOtS03m_VgFaXZGh6f9rQ" target = "_self">
+					<img src="Images/TikTok.png" width = "250" height = "300" border = "3">
+					<h4> Message me On my Google Account</h4>					
+				</div>	
+				<div class = "col-3">
+					<img src="Images/Ala.jpg" width = "250" height = "300" border = "3">
+					<h4> Heeeellloooo</h4>					
+				</div>	
+		</div>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,254 @@
+/*------Homae Page-------*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	margin-top: 1px;
+	max-width: 1400px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;	
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	padding:  0px;
+	font-size: 30px;
+}
+ nav{
+	flex: 1;
+	text-align: right;	
+}
+nav ul{
+	display: inline-block:
+	list-style-type: none;
+}
+nav ul li {
+	display: inline-block;
+	margin-right: 40px;
+}
+li a:hover:not(.active){
+	Background: #fff;
+	color: aqua;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+p{
+	color: #fff;
+	font-size: 30px;
+}
+.row {
+	color: #fff;
+	display: flex;
+	margin: 130px ;	
+}
+.col-2 h1{
+	font-size: 60px;
+	margin: 25px 0;
+}
+.row-1 {
+	color: #fff;
+	display: flex;
+	margin: 100px ;	
+}
+.btn {
+	display: inline-block;
+	background: #ff523b;
+	color: #fff;
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	transition: background 0.5s;
+}
+.btn:hover{
+	background: #563434;
+}
+h2{
+	text-align: center;
+	position: relative;
+	color: white;
+	font-size: 40px ;
+}
+h3{
+	margin: auto;
+	color: #fff;
+	font-size: 30px;
+}
+h4{
+	color: white;
+	font: 20px;
+}
+.col-3 {
+	line-height: 20px;
+	min-width: 300px;
+	transition: t5ransform 0.5s;
+}
+.col-3:hover{
+	transform: translateY(-5px);
+}
+.col-3 img{
+	maargin-top: 10%;
+}
+
+/*-------All product page-----*/
+.Categories-1{
+	max-width: 1400px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.row-1 h5{
+	font-size: 60px;
+	margin: 25px 0;
+}
+select{
+	border: 1px solid #ff523b;
+	padding: 5px;
+}
+select:focus{
+	outline:none;
+}
+.page-btn{
+	margin: 0 auto 80px;
+}
+.page-btn span{
+	display: inline-block;
+	border: 1px solid aqua;
+	margin-left: 10px;
+	width: 40px;
+	heigth: 40px;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;	
+}
+.page-btn span:hover{
+	background: #ff523b;
+	color: white;
+}
+
+/*-----single product deTail----*/
+.detail{
+	margin-top: 20px;
+}
+.detail .col-3 img{
+	padding: 10;
+}
+.detail .col-3{
+	padding-left: 340px;
+}
+.detail h4{
+	margin: 20px 0;
+	font-size: 22px;
+	font-weight: bold;	
+}
+.detail input{
+	width: 50px;
+	height: 40px;
+	padding-left: 10px;
+	font-size: 20px;
+	margin-right: 10px;
+	border: 1px solid #ff523b;
+}
+input:focus{
+	outline: none;
+}
+.img-row{
+	display: flex;
+	justify-content: space-between;
+}
+.img-row-col-4{
+	flex: auto;
+	cursor: pointer;
+}
+/*-----Add To cart----*/
+.Cart-Page{
+	margin: 80px auto;
+}
+table{	
+	width: 100%;
+	border-collapse: collapse;
+}
+.cart-info{
+	display: flex;
+	flex-wrap: wrap;
+}
+th{
+	text-align: left;
+	padding: 5px;
+	color: #fff;
+	background: #ff523b;
+	font-weight: normal;
+}
+td{
+	padding: 10px 5px;
+}
+td input{
+	width: 40px;
+	height: 30px;
+	padding: 5px;
+}
+td a{
+	color: white;
+	font-size: 15px;
+}
+td img{
+	width: 80px;
+	height: 80px;
+	margin-right: 10px;	
+}
+.Total-Price{
+	display: flex;
+	justify-content: flex-end;
+}
+.Total-Price table{
+	border-top: 3px solid #ff523b;
+	width: 100%;
+	max-width: 400px;
+}
+td:last-child{
+	text-align: right;
+}
+th:last-child{
+	text-align: right;
+}
+/*-----aCCOUNT-PAGE----*/
+.form-Conatiner{
+	display: inline-block;
+	background: #fff;
+	width: 300px;
+	height: 400px;
+	position: relative;
+	text-align: center;
+	padding: 20px 0;
+	margin-left: 150%;
+	margin-top: 1px;
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0,1);
+}
+.form-Conatiner span{
+	font-wegth: bold;
+	padding: 0 10px;
+	color:#555;
+	cursor: pointer;
+	width: 100px;
+	display: inline-block;
+}
+.form-btn{	
+	display: inline-block;
+}
+.form-Conatiner form{
+	max-width: 300px;
+	padding: 0 20px;
+	position: absolute;
+	top: 130px;
+}
+form input{
+	width: 100%;
+	height: 30px;
+	margin: 10px 0;
+	padding: 0 10px;
+	border: 1px solid #ccc;
+}
